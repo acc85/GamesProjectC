@@ -33,4 +33,6 @@ Create a shortcut to to eclipse or if you already have a shortcute, add the foll
 
 --vmargs -Djava.net.preferIPv4Stack=true
 
+##Setting Up Project
 
+Once you have setup mingW and Eclipse, clone the project into eclipse.
