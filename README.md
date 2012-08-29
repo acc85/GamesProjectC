@@ -20,11 +20,11 @@ For linux, download the tar, extract it, make and build
 
 To install Eclipse you can either download the Eclipse C/C++ IDE from:
 
-- [Windows 32-bit](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/juno/R/eclipse-cpp-juno-win32.zip)
-- [Windows 64-bit](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/juno/R/eclipse-cpp-juno-win32-x86_64.zip)
+[Windows 32-bit](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/juno/R/eclipse-cpp-juno-win32.zip)
+[Windows 64-bit](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/juno/R/eclipse-cpp-juno-win32-x86_64.zip)
 
--[Linux 32-bit](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/juno/R/eclipse-cpp-juno-linux-gtk.tar.gz)
--[Linux 64-bit](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/juno/R/eclipse-cpp-juno-linux-gtk-x86_64.tar.gz)
+[Linux 32-bit](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/juno/R/eclipse-cpp-juno-linux-gtk.tar.gz)
+[Linux 64-bit](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/juno/R/eclipse-cpp-juno-linux-gtk-x86_64.tar.gz)
 
 Or you if you already have Eclipse somewhere on your machine, you can download the Plugins from the repository, depending on which version you have. If you are having trouble with installation stalling at a certain percentage. Do the Following:
 
