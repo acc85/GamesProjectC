@@ -3,13 +3,13 @@ GamesProjectC
 
 C++ Games Project
 
-##Install MingW
+##Install MinGW
 
 Got to the following Link:
 
-- [MingW Sourceforge Windows exe](http://sourceforge.net/projects/mingw/files/Installer/mingw-get-inst/mingw-get-inst-20120426/mingw-get-inst-20120426.exe/download)
+- [MinGW Sourceforge Windows exe](http://sourceforge.net/projects/mingw/files/Installer/mingw-get-inst/mingw-get-inst-20120426/mingw-get-inst-20120426.exe/download)
 
-- [MingW Sourceforge tar](http://sourceforge.net/projects/mingw/files/Installer/mingw-get-inst/mingw-get-inst-20120426/mingw-get-inst-src-20120426.tar.xz/download)
+- [MinGW Sourceforge tar](http://sourceforge.net/projects/mingw/files/Installer/mingw-get-inst/mingw-get-inst-20120426/mingw-get-inst-src-20120426.tar.xz/download)
 
 For the windows installation, just open the EXE and install.
 
@@ -32,6 +32,7 @@ Or you if you already have Eclipse somewhere on your machine, you can download t
 Create a shortcut to to eclipse or if you already have a shortcute, add the following to to Target after your the location of the eclipse:
 
 --vmargs -Djava.net.preferIPv4Stack=true
+```
 
 ##Setting Up Project
 
@@ -40,8 +41,8 @@ Once you have setup mingW and Eclipse, clone the project into eclipse via git.
 Afterwards to must set up the compiler flags for the project. You can do it for both debug and release builds. To do this, RightCclick on the Root Project Folder GameProject or whatever you named it and choose Properties, then from there go to C/C++ Build->Settings, then on the right side choose MingGW C++ Linker then Miscellaneous, At the Top it will say configuration with a drop down box for Debug, Release and Allconfiguration. i suggest adding it for All configuration, so select the option form the drop down box, then add the folowing into the Linker Flags box: 
 
 ```LinkerFlags
-
 -static-libgcc -static-libstdc++
+```
 
 You should be able to build and compile your program.
 
